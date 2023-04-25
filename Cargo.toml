@@ -1,0 +1,14 @@
+[package]
+name = "Nyah"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "seks"
+path = "src/seks.rs"
+
+[dependencies]
+piston_window = "*"
+rodio = "*"
+piston-gfx_texture = "*"
+crossbeam-utils = "=0.8.14"
